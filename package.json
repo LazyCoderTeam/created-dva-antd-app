@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test --env=jsdom",
+    "lint": "eslint --ext .js src test",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "babel-eslint": "^8.2.1",
+    "dva": "^2.1.0",
+    "file-loader": "^1.1.6",
+    "react": "^16.2.0",
+    "react-app-rewire-less": "^2.1.0",
+    "react-app-rewire-mobx": "^1.0.7",
+    "react-app-rewire-preact": "^1.0.1",
+    "react-app-rewired": "^1.4.1",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1",
+    "webpack": "^3.11.0"
+  },
+  "devDependencies": {
+    "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-plugin-emotion": "^9.0.0",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.14.0",
+    "eslint-config-umi": "^0.1.1",
+    "eslint-plugin-flowtype": "^2.34.1",
+    "eslint-plugin-import": "^2.6.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.1.0",
+    "husky": "^0.12.0",
+    "node-sass": "^4.7.2",
+    "react-app-rewire-css-modules": "github:codebandits/react-app-rewire-css-modules",
+    "react-app-rewire-emotion": "^3.0.0",
+    "react-app-rewire-less-modules": "^1.2.0",
+    "redbox-react": "^1.4.3",
+    "sass-loader": "^6.0.6"
+  },
+  "proxy": "http://localhost:3030"
+}
